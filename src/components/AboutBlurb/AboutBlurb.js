@@ -2,9 +2,9 @@ import React from "React"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import "./Banner.scss"
+import "./AboutBlurb.scss"
 
-const Banner = () => {
+const AboutBlurb = () => {
   const data = useStaticQuery(graphql`
     query {
       poppinShades: file(relativePath: { eq: "poppin-shades.png" }) {
@@ -34,27 +34,10 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container">
-        <div className="row">
-          <div className="side-image left">
-            <Img fluid={data.diamonds.childImageSharp.fluid} />
-          </div>
-          <div className="main-text">Honorio Taveras</div>
-          <div className="main-image">
-            <Img fluid={data.poppinShades.childImageSharp.fluid} />
-          </div>
-          <div className="side-image right">
-            <Img fluid={data.orange.childImageSharp.fluid} />
-          </div>
-        </div>
-        <div className="scroll">
-          <span>Scroll down</span>
-        </div>
-      </div>
-      <div className="fixed-misc">
-        Fullstack Software Engineer
+        <div className="row"></div>
       </div>
     </div>
   )
 }
 
-export default Banner
+export default AboutBlurb
