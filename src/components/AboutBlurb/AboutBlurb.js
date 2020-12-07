@@ -1,27 +1,21 @@
 import React from "React"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 import "./AboutBlurb.scss"
 
 const AboutBlurb = () => {
   const data = useStaticQuery(graphql`
     query {
-      poppinShades: file(relativePath: { eq: "poppin-shades.png" }) {
+      flower: file(relativePath: { eq: "flower-mouth.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      diamonds: file(relativePath: { eq: "diamonds.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      orange: file(relativePath: { eq: "sexy-orange.png" }) {
+      fist: file(relativePath: { eq: "fist.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -32,10 +26,33 @@ const AboutBlurb = () => {
   `)
 
   return (
-    <div className="banner">
+    <div className="about-blurb">
       <div className="container">
-        <div className="row"></div>
+        <div className="inner-blurb">
+          <div className="content">
+            <h3>The ability to create</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              enim magni, voluptates distinctio porro necessitatibus explicabo
+              hic quos totam, et perferendis recusandae soluta nihil voluptatem
+              ipsa obcaecati labore. Eos, omnis.
+            </p>
+            <div className="btn-row">
+              <Link to="/work">View Series</Link>
+            </div>
+          </div>
+          <div className="images">
+            <div className="top-right">
+              <Img fluid={data.fist.childImageSharp.fluid} />
+            </div>
+            <div className="top-left">
+              <Img fluid={data.flower.childImageSharp.fluid} />
+            </div>
+          </div>
+        </div>
       </div>
+      <div className="black-box"></div>
+      <div className="black-box overlay"></div>
     </div>
   )
 }
