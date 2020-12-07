@@ -45,7 +45,7 @@ const AboutBlurb = () => {
             <div className="top-right">
               <Img fluid={data.fist.childImageSharp.fluid} />
             </div>
-            <div className="top-left">
+            <div className="bottom-left">
               <Img fluid={data.flower.childImageSharp.fluid} />
             </div>
           </div>
