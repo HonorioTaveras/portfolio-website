@@ -35,7 +35,11 @@ const AboutBlurb = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
               enim magni, voluptates distinctio porro necessitatibus explicabo
               hic quos totam, et perferendis recusandae soluta nihil voluptatem
-              ipsa obcaecati labore. Eos, omnis.
+              ipsa obcaecati labore. Eos, omnis. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Quidem enim magni, voluptates
+              distinctio porro necessitatibus explicabo hic quos totam, et
+              perferendis recusandae soluta nihil voluptatem ipsa obcaecati
+              labore. Eos, omnis.
             </p>
             <div className="btn-row">
               <Link to="/work">View Series</Link>
@@ -57,4 +61,4 @@ const AboutBlurb = () => {
   )
 }
 
-export default AboutBlurb
+export default AboutBlurb;
