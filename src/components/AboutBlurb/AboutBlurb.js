@@ -30,25 +30,45 @@ const AboutBlurb = () => {
       <div className="container">
         <div className="inner-blurb">
           <div className="content">
-            <h3>The ability to create</h3>
+            <h3>The ability to create and solve</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              enim magni, voluptates distinctio porro necessitatibus explicabo
-              hic quos totam, et perferendis recusandae soluta nihil voluptatem
-              ipsa obcaecati labore. Eos, omnis. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quidem enim magni, voluptates
-              distinctio porro necessitatibus explicabo hic quos totam, et
-              perferendis recusandae soluta nihil voluptatem ipsa obcaecati
-              labore. Eos, omnis.<br /><br />
-
-              Technologies I work with:<br />
-             • Front-End -​ JavaScript (ES5/ES6), React (Hooks), jQuery, Bootstrap, Material-UI, SCSS, Styled-Components, CSS, HTML<br />
-             • Back-End -​ Node.js, Express, PostgresQL, MySQL, MongoDB, Mongoose<br />
-             • Testing -​ Jest, Enzyme, Mocha, Chai<br />
-             • Tools -​ Git, npm, Webpack, Babel, Jira, Docker, Amazon Web Services (AWS), Redux, Stripe, GraphQL, Artillery.io, New Relic, Heroku, Postman, Firebase<br />
-             • Techniques -​ Agile Development, Pair Programming, Test Driven Development (TDD), RESTful Design, Model View Controller (MVC)
-
+              I am a full stack engineer that loves to build and solve problems
+              both on the frontend using Javascript, HTML, CSS, and any
+              frameworks/libraries that assist in creating the best user
+              experience possible, as well as architecting and designing
+              scalable backends to support high production level web traffic. I
+              understand the tradeoff between perfect and complete and thrive in
+              the workflow balance between agile methodologies in a team and
+              executing business requirements autonomously. When I'm not
+              crafting wizardry on the computer, I am outside rock climbing or
+              creating music with good company.
             </p>
+            <br />
+            <br />
+            <ul>
+              <li>
+                <span className="tech-type">Front-End</span> - JavaScript (ES5/ES6), React (Hooks), jQuery,
+                Bootstrap, Material-UI, SCSS, Styled-Components, CSS, HTML
+              </li>
+              <li>
+                <span className="tech-type">Back-End</span> - Node.js, Express, PostgresQL, MySQL, MongoDB,
+                Mongoose
+              </li>
+              <li>
+                <span className="tech-type">Testing​</span> - Jest, Enzyme, Mocha, Chai
+              </li>
+              <li>
+                <span className="tech-type">Tools</span> -​ Git, npm, Webpack, Babel, Jira, Docker, Amazon
+                Web Services (AWS), Redux, Stripe, GraphQL, Artillery.io, New
+                Relic, Heroku, Postman, Firebase
+              </li>
+              <li>
+                <span className="tech-type">Techniques</span> -​ Agile Development, Pair Programming, Test
+                Driven Development (TDD), RESTful Design, Model View Controller
+                (MVC)
+              </li>
+            </ul>
+
             <div className="btn-row">
               <Link to="/work">View Series</Link>
             </div>
@@ -69,4 +89,4 @@ const AboutBlurb = () => {
   )
 }
 
-export default AboutBlurb;
+export default AboutBlurb
