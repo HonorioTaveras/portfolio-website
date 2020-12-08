@@ -39,7 +39,15 @@ const AboutBlurb = () => {
               consectetur adipisicing elit. Quidem enim magni, voluptates
               distinctio porro necessitatibus explicabo hic quos totam, et
               perferendis recusandae soluta nihil voluptatem ipsa obcaecati
-              labore. Eos, omnis.
+              labore. Eos, omnis.<br /><br />
+
+              Technologies I work with:<br />
+             • Front-End -​ JavaScript (ES5/ES6), React (Hooks), jQuery, Bootstrap, Material-UI, SCSS, Styled-Components, CSS, HTML<br />
+             • Back-End -​ Node.js, Express, PostgresQL, MySQL, MongoDB, Mongoose<br />
+             • Testing -​ Jest, Enzyme, Mocha, Chai<br />
+             • Tools -​ Git, npm, Webpack, Babel, Jira, Docker, Amazon Web Services (AWS), Redux, Stripe, GraphQL, Artillery.io, New Relic, Heroku, Postman, Firebase<br />
+             • Techniques -​ Agile Development, Pair Programming, Test Driven Development (TDD), RESTful Design, Model View Controller (MVC)
+
             </p>
             <div className="btn-row">
               <Link to="/work">View Series</Link>
