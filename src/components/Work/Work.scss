@@ -87,15 +87,15 @@
           cursor: pointer;
           -webkit-filter: none;
           filter: none;
-          transform: scale(1.1);
-          transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          transform: scale(1.05);
+          transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
           z-index: 999;
         }
       }
     }
   }
   .black-box {
-    background: $teal;
+    background-image: linear-gradient(to right, $teal , $black);
     height: 50%;
     width: 100%;
     position: absolute;
