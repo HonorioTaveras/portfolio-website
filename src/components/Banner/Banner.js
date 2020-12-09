@@ -51,7 +51,13 @@ const Banner = () => {
         </div>
       </div>
       <div className="fixed-misc">
-        Fullstack Software Engineer
+        htaveras90@gmail.com
+      </div>
+      <div className="fixed-links">
+        <ul>
+          <li>GH</li>
+          <li>LI</li>
+        </ul>
       </div>
     </div>
   )
