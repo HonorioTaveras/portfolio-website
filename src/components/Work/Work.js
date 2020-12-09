@@ -17,7 +17,7 @@ const Work = () => {
       }
       delphi: file(relativePath: { eq: "delphi-system-designs.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
