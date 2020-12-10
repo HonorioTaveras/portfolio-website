@@ -48,12 +48,18 @@ const Work = () => {
                 production level web traffic
               </span>
             </div>
+            <div className="center-proj hover">
+              <Img
+                className="border"
+                fluid={data.elysium.childImageSharp.fluid}
+              />
+            </div>
             <div className="right-proj hover">
               <h2>Dirtbag Companion</h2>
-              <Img fluid={data.dirtbag.childImageSharp.fluid} />
-            </div>
-            <div className="center-proj hover">
-              <Img fluid={data.elysium.childImageSharp.fluid} />
+              <Img
+                className="border"
+                fluid={data.dirtbag.childImageSharp.fluid}
+              />
             </div>
           </div>
         </div>
