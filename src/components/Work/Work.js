@@ -35,12 +35,21 @@ const Work = () => {
     <div className="work">
       <div className="container">
         <div className="row">
-          {/* <div className="main-text">Work</div> */}
+          <h3>Work</h3>
           <div className="images">
             <div className="left-proj hover">
-              <Img fluid={data.delphi.childImageSharp.fluid} />
+              <h2>Delphi System Designs</h2>
+              <Img
+                className="border"
+                fluid={data.delphi.childImageSharp.fluid}
+              />
+              <span>
+                Architected and designed a scalable backend to support
+                production level web traffic
+              </span>
             </div>
             <div className="right-proj hover">
+              <h2>Dirtbag Companion</h2>
               <Img fluid={data.dirtbag.childImageSharp.fluid} />
             </div>
             <div className="center-proj hover">

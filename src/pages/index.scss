@@ -30,4 +30,12 @@ html, body {
     width: 768px;
     min-width: 768px;
   }
+  @media (max-width: 767px) {
+    width: 489px;
+    min-width: 489px;
+  }
+  @media (max-width: 489px) {
+    width: 247px;
+    min-width: 247px;
+  }
 }
