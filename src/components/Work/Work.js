@@ -48,6 +48,7 @@ const Work = () => {
                 production level web traffic
               </span>
             </div>
+            <div className="black-box" />
             <div className="center-proj hover">
               <Img
                 className="border"
@@ -64,8 +65,6 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className="black-box" />
-      <div className="black-box overlay" />
     </div>
   )
 }
