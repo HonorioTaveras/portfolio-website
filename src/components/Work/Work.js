@@ -69,10 +69,12 @@ const Work = () => {
             </div>
             <div className="right-proj hover">
               <div className="proj-title">Dirtbag Companion</div>
-              <Img
-                className="border"
-                fluid={data.dirtbag.childImageSharp.fluid}
-              />
+              <div className="bottom-img">
+                <Img
+                  className="border"
+                  fluid={data.dirtbag.childImageSharp.fluid}
+                />
+              </div>
               <span>
                 An application for dirtbag (and non-dirtbag) climbers and
                 outdoors enthusiasts! This single page mini app is here to serve
@@ -81,10 +83,10 @@ const Work = () => {
                 climbing scene.
               </span>
             </div>
-            <div className="black-box" />
           </div>
         </div>
       </div>
+      <div className="black-box" />
     </div>
   )
 }
