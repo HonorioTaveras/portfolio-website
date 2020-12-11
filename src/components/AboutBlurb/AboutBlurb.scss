@@ -2,7 +2,8 @@
 
 .about-blurb {
   padding: 48px 0;
-  background: url(../../images/yellow-backgound.jpg);
+  // background: url(../../images/yellow-backgound.jpg);
+  background-color: #F9D24A;
   position: relative;
   .inner-blurb {
     display: flex;
@@ -10,7 +11,7 @@
     align-items: center;
     .content {
       width: 33%;
-      background-color: beige;
+      // background-color: beige;
       padding: 5%;
       margin-left: 3%;
       margin-bottom: 10%;
@@ -20,7 +21,7 @@
       h3 {
         font-weight: 700;
         text-transform: uppercase;
-        font-size: 1.8rem;
+        font-size: 3.3rem;
         letter-spacing: 1.5px;
         margin: 0;
       }
@@ -36,7 +37,7 @@
         }
         font-size: 1rem;
         line-height: 2rem;
-        font-weight: 300;
+        font-weight: 700;
         margin-top: 40px 0 72px;
       }
       .btn-row {

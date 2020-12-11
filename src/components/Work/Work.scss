@@ -4,14 +4,14 @@
   margin: 10% 0;
   display: flex;
   align-items: center;
-  background: url(../../images/blue-background.jpg);
+  background-color: #1c2b34;
   padding-bottom: 20%;
   position: relative;
   height: 100vh;
   h3 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 3.3rem;
     letter-spacing: 1.5px;
     margin: 0;
   }
@@ -31,11 +31,11 @@
         width: 800px;
       }
       .proj-title {
-        font-weight: 600;
+        font-weight: 700;
         color: $off-white;
         text-transform: uppercase;
         position: relative;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         letter-spacing: 1.1px;
         margin-bottom: 1%;
         transform: translateY(-50%);
@@ -58,14 +58,12 @@
           display: flex;
         }
         span {
-          background: #082A1B;
-          border: 7px inset #127191;
           padding: 4%;
-          font-size: 0.775rem;
+          font-size: 0.875rem;
           line-height: 2rem;
-          font-weight: 400;
+          font-weight: 500;
           margin-top: 40px 0 72px;
-          letter-spacing: 1.9px;
+          letter-spacing: 0.75px;
           color: $white;
           position: absolute;
           width: 100%;
@@ -93,14 +91,12 @@
           width: 436px;
         }
         span {
-          background: #082A1B;
-          border: 7px inset #127191;
           padding: 4%;
-          font-size: 0.775rem;
+          font-size: 0.875rem;
           line-height: 2rem;
-          font-weight: 400;
+          font-weight: 500;
           margin-top: 40px 0 72px;
-          letter-spacing: 1.9px;
+          letter-spacing: 0.75px;
           color: $white;
           position: absolute;
           width: 100%;
@@ -129,14 +125,12 @@
           width: 310px;
         }
         span {
-          background: #082A1B;
-          border: 7px inset #127191;
           padding: 4%;
-          font-size: 0.775rem;
+          font-size: 0.875rem;
           line-height: 2rem;
-          font-weight: 400;
+          font-weight: 500;
           margin-top: 40px 0 72px;
-          letter-spacing: 1.9px;
+          letter-spacing: 0.75px;
           color: $white;
           position: absolute;
           width: 100%;
@@ -156,24 +150,26 @@
           cursor: pointer;
           filter: none;
           -webkit-filter: grayscale(0%);
-          transform: scale(1.025);
-          transition: transform 0.75s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-          z-index: 999;
+          transform: scale(1.075);
+          transition: transform .875s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          z-index: 9;
         }
       }
     }
   }
-  // .black-box {
-  //   background: $black;
-  //   height: 40%;
-  //   width: 60%;
-  //   position: absolute;
-  //   right: 0;
-  //   top: 50%;
-  //   transform: translateY(-50%);
-  //   @media (max-width: 1440px) {
-  //     width: 636px;
-  //     height: 340px;
-  //   }
-  // }
+  .black-box {
+    background: $black;
+    border-top-left-radius: 33%;
+    // border-bottom-left-radius: 3%;
+    height: 40%;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    @media (max-width: 1440px) {
+      width: 636px;
+      height: 340px;
+    }
+  }
 }
