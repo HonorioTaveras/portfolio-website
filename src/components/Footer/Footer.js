@@ -18,7 +18,7 @@ const featured = [
 const Footer = () => {
   return (
     <footer>
-      <div className="featured-companies">
+      {/* <div className="featured-companies">
         <div className="container">
           <ul>
             {featured.map(({ name, image }) => (
@@ -28,7 +28,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className="footer">
         <div className="inner">
           <span>© 2020 Dirtbag Climber Tech Co</span>

@@ -16,27 +16,39 @@ html, body {
 }
 
 .container {
-  width: 1640px;
-  min-width: 1640px;
+  width: 102.5rem;
+  min-width: 102.5rem;
   margin: 0 auto;
   @media(max-width: 1440px) {
-    width: 1280px;
-    min-width: 1280px;
+    width: 95%;
+    min-width: 100%;
   }
   @media(max-width: 1280px) {
-    width: 976px;
-    min-width: 976px;
+    width: 95%;
+    min-width: 100%;
+  }
+  @media(max-width: 1215px) {
+    width: 95%;
+    min-width: 100%;
+  }
+  @media(max-width: 1180px) {
+    width: 95%;
+    min-width: 100%;
+  }
+  @media(max-width: 1115px) {
+    width: 95%;
+    min-width: 100%;
   }
   @media(max-width: 976px) {
-    width: 768px;
-    min-width: 768px;
+    width: 100%;
+    min-width: 100%;
   }
   @media (max-width: 767px) {
-    width: 489px;
-    min-width: 489px;
+    width: 97%;
+    min-width: 100%;
   }
-  @media (max-width: 489px) {
-    width: 247px;
-    min-width: 247px;
+  @media (max-width: 400px) {
+    width: 100%;
+    min-width: 100%;
   }
 }
