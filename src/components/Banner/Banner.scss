@@ -23,8 +23,12 @@
       mix-blend-mode: difference;
       z-index: 9;
       @media (max-width: 1440px) {
-        font-size: 4.4rem;
-        letter-spacing: 36px;
+        font-size: 5.8rem;
+        letter-spacing: 2.625rem;
+      }
+      @media(max-width: 1590px) {
+        font-size: 5.8rem;
+        letter-spacing: 2.625rem;
       }
     }
     .main-image {
