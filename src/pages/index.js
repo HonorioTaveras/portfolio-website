@@ -6,6 +6,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import AboutBlurb from '../components/AboutBlurb/AboutBlurb';
 import Work from '../components/Work/Work';
+import Footer from "../components/Footer/Footer";
 
 const IndexPage = () => (
   <div>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <Banner />
     <AboutBlurb />
     <Work />
+    <Footer />
   </div>
 )
 
